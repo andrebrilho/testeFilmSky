@@ -1,0 +1,6 @@
+framework module Pods_filmSky {
+  umbrella header "Pods-filmSky-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.4.0):
+    - Alamofire (~> 4.7)
+  - Nimble (8.0.7)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - Quick (2.2.0)
+
+DEPENDENCIES:
+  - AlamofireImage (= 3.4.0)
+  - Nimble
+  - PromiseKit
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Nimble
+    - PromiseKit
+    - Quick
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: 5f79836de27236819b13b27d0c97be6c205976fe
+  Nimble: a73af6ecd4c9106f434f3d55fc54570be3739e0b
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+
+PODFILE CHECKSUM: 4e82974a0873e8c2aaa279c98db3d3d27a9ab08c
+
+COCOAPODS: 1.9.1
