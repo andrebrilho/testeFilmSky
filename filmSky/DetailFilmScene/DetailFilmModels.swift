@@ -12,20 +12,5 @@
 
 import UIKit
 
-enum DetailFilm
-{
-  // MARK: Use cases
-  
-  enum Something
-  {
-    struct Request
-    {
-    }
-    struct Response
-    {
-    }
-    struct ViewModel
-    {
-    }
-  }
+enum DetailFilm{
 }

@@ -30,7 +30,6 @@ class DetailFilmInteractor: DetailFilmBusinessLogic, DetailFilmDataStore
         self.worker = worker
     }
 
-    
     func load() {
         presenter?.showDesc(desc: selectedFilm?.overview ?? "")
         presenter?.showName(name: selectedFilm?.title ?? "")

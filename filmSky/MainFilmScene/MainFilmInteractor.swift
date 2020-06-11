@@ -50,7 +50,4 @@ class MainFilmInteractor: MainFilmBusinessLogic, MainFilmDataStore {
         selectedFilm = listFilm[indexPath.row]
         presenter?.routeToDetail()
     }
-    
-    
-  
 }

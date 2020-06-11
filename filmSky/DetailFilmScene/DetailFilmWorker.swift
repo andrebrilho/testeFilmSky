@@ -12,9 +12,5 @@
 
 import UIKit
 
-class DetailFilmWorker
-{
-  func doSomeWork()
-  {
-  }
+class DetailFilmWorker{
 }

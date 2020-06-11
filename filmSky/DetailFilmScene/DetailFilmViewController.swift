@@ -56,7 +56,6 @@ class DetailFilmViewController: UIViewController, DetailFilmDisplayLogic {
     router.dataStore = interactor
   }
 
-  
     override func viewDidLoad() {
         super.viewDidLoad()
         interactor?.load()

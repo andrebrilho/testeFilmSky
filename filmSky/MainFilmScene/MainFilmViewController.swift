@@ -52,18 +52,7 @@ class MainFilmViewController: UIViewController, MainFilmDisplayLogic {
     router.dataStore = interactor
   }
 
-//  override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-//  {
-//    if let scene = segue.identifier {
-//      let selector = NSSelectorFromString("routeTo\(scene)WithSegue:")
-//      if let router = router, router.responds(to: selector) {
-//        router.perform(selector, with: segue)
-//      }
-//    }
-//  }
-
-  override func viewDidLoad()
-  {
+  override func viewDidLoad(){
     super.viewDidLoad()
     tbl.delegate = self
     tbl.dataSource = self
